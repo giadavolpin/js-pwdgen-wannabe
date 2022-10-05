@@ -9,9 +9,8 @@ const nomeUtente = prompt ('come ti chiami?');
 const cognomeUtente = prompt ('qual è il tuo cognome?')
 const coloreUtente = prompt ('qual è il tuo colore preferito?')
 const etaUtente = prompt ('quanti anni hai?')
-const saluto = '
-${nomeUtente}${cognomeUtente}${coloreUtente}${etaUtente}
-' ;
+const saluto = 
+"${nomeUtente}${cognomeUtente}${coloreUtente}${etaUtente}" ;
 
 const elemento = document.getElementById('utente');
 elemento.innerHTML = saluto; 
